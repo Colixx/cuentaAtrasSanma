@@ -1,0 +1,58 @@
+*{
+    font-family: inter;
+
+
+}
+
+p{
+    color: white;
+    margin: auto;
+    font-size: x-large;
+}
+
+img{
+    width: 40%;
+    background: none;
+}
+
+#cruce{
+    font-weight: 600;
+}
+/* celeste #1e97b6 gris #1c1c1c*/
+#contador{
+    background: #1c1c1c;
+    background: radial-gradient(circle, #1c1c1c 0%, #1c1c1c 79%, #1e97b6 79%, #1e97b6 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;    
+}
+
+.cuentaAtras{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.grupo{
+    line-height: 1;
+}
+
+.grande {
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: #1e97b6;
+}
+
+@media (width < 550px) {
+    .cuentaAtras {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #1e97b6;
+    }
+}
